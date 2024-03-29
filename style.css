@@ -1,5 +1,67 @@
-.upper-div
-{
-height: 15%;
+.upper-div {
+  height: 15%;
+  border: 2px solid rgb(208, 207, 207); /* Hide the original border */
+  box-shadow: 10px 5px 20px #247493, 0 0 20px #0fafbd; /* Neon glow effect */
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
 
+}
+.painsize
+{
+    border: 1px solid rgb(220, 204, 204);
+   
+}
+.size1 {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+}
+.size2 {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+}
+.size3 {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+}
+.size4 {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+}
+.colors {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 10px;
+}
+.colors1 {
+  box-shadow: 1px 1px 9px 0px rgb(196, 61, 106);
+
+  background-color: palevioletred;
+}
+.colors2 {
+  box-shadow: 1px 1px 9px 0px rgb(96, 28, 164);
+
+  background-color: rebeccapurple;
+}
+.colors3 {
+  box-shadow: 1px 1px 9px 0px rgb(148, 15, 15);
+
+  background-color: red;
+}
+.colors4 {
+  box-shadow: 1px 1px 9px 0px rgb(195, 107, 19);
+  background-color: peru;
+}
+.canvas
+{
+    height: 75%;
+    border: 2px solid rgb(208, 207, 207); /* Hide the original border */
+    box-shadow: 10px 5px 20px #247493, 0 0 20px #0fafbd; /* Neon glow effect */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
 }

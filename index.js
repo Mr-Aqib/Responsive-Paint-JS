@@ -11,7 +11,6 @@ let pallete=document.querySelector('#input')
 let box
 let hex
 
-
 let ispaint1 = false
 let ispaint2 = false
 let ispaint3 = false
@@ -110,7 +109,19 @@ c4.addEventListener('click', () => {
 
 })
 
+let move=false
+
+paintboard.addEventListener('mousedown',()=>
+{
+    move=true
+})
+paintboard.addEventListener('mouseup',()=>
+{
+    move=false
+})
 paintboard.addEventListener('mousemove', (e) => {
+   if(move)
+   {
     box = document.createElement('div')
     box.classList.add('paint')
 
@@ -144,10 +155,11 @@ paintboard.addEventListener('mousemove', (e) => {
     {
         box.style.background = hex
     }
-
     let xpos = e.clientX
     let ypos = e.clientY
-    box.style.left = `${xpos-110}px`
+    box.style.left = `${xpos-200}px`
     box.style.top = `${ypos-120}px`
     paintboard.append(box)
+}
+   
 })
